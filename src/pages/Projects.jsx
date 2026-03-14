@@ -10,7 +10,6 @@ export default function Projects() {
         {papers.map((paper, i) => (
           <div key={i}>
             <p className="font-medium text-gray-900">{paper.title}</p>
-            <p className="text-sm text-gray-500 mt-0.5">{paper.authors}</p>
             <p className="text-sm text-gray-400 italic">{paper.venue}</p>
             <p className="text-sm text-gray-500 mt-1">{paper.description}</p>
             <a

@@ -15,15 +15,18 @@ export default function Papers() {
             {grouped[year].map((paper, i) => (
               <div key={i}>
                 <p className="font-medium text-gray-900">{paper.title}</p>
-                <p className="text-sm text-gray-500 mt-0.5">{paper.authors}</p>
                 <p className="text-sm text-gray-400 italic">{paper.venue}</p>
-                <div className="flex gap-3 mt-1 text-sm">
-                  {Object.entries(paper.links).map(([label, url]) => (
-                    <a key={label} href={url} target="_blank" rel="noreferrer">
-                      [{label}]
-                    </a>
-                  ))}
-                </div>
+                <p className="text-sm text-gray-500 mt-1">{paper.description}</p>
+                {paper.link && (
+                  <a
+                    href={paper.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800 no-underline hover:underline mt-1"
+                  >
+                    Paper
+                  </a>
+                )}
               </div>
             ))}
           </div>

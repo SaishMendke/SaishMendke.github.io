@@ -1,7 +1,6 @@
 export const papers = [
   {
     title: "Enhancing Zero-shot Chain of Thought Prompting via Uncertainty-Guided Strategy Selection",
-    authors: "Saish Shrikant Mendke",
     venue: "COLING 2025",
     year: 2025,
     description:
@@ -10,7 +9,6 @@ export const papers = [
   },
   {
     title: "Socio-Culturally Aware Evaluation Framework for LLM-Based Content Moderation",
-    authors: "Saish Shrikant Mendke",
     venue: "COLING 2025 SumEval Workshop",
     year: 2025,
     description:
@@ -19,11 +17,17 @@ export const papers = [
   },
   {
     title: "DBNLP: Detecting Bias in Natural Language Processing System for India-Centric Languages",
-    authors: "Saish Shrikant Mendke",
     venue: "Research Publication",
     year: 2025,
     description:
       "Proposes DBNLP, a framework to identify biases in text-based language models for English and Hindi using three techniques: Context Association Test, template-based perturbation, and co-occurrence corpus analysis. Demonstrates how India-centric models like IndicBERT and MuRIL encode socio-cultural stereotypes across gender, religion, and profession.",
     link: "https://www.researchgate.net/profile/Keerthan-Kumar-T-G/publication/390282770_DBNLP_detecting_bias_in_natural_language_processing_system_for_India-centric_languages/links/68b96b2b653c451cf47449e6/DBNLP-detecting-bias-in-natural-language-processing-system-for-India-centric-languages.pdf",
+  },
+  {
+    title: "Real-Time Mitigation of Inconsistency Bias in Generative AI Models",
+    venue: "Patent",
+    year: 2025,
+    description:
+      "Proposes a real-time method to mitigate inconsistency bias in generative AI systems like Copilot. Detects entities in user queries and identifies counter-entities during reasoning, then adjusts output to ensure balanced representation. Operates at inference time, making it generalizable across different generative AI systems.",
   },
 ];
