@@ -17,4 +17,13 @@ export const papers = [
       "Introduces a persona-driven framework for generating diverse evaluation data that accounts for socio-cultural context. Enables fairer and more inclusive assessments of LLMs in content moderation tasks by capturing perspectives that traditional benchmarks often miss.",
     link: "https://arxiv.org/abs/2412.13578",
   },
+  {
+    title: "DBNLP: Detecting Bias in Natural Language Processing System for India-Centric Languages",
+    authors: "Saish Shrikant Mendke",
+    venue: "Research Publication",
+    year: 2025,
+    description:
+      "Proposes DBNLP, a framework to identify biases in text-based language models for English and Hindi using three techniques: Context Association Test, template-based perturbation, and co-occurrence corpus analysis. Demonstrates how India-centric models like IndicBERT and MuRIL encode socio-cultural stereotypes across gender, religion, and profession.",
+    link: "https://www.researchgate.net/profile/Keerthan-Kumar-T-G/publication/390282770_DBNLP_detecting_bias_in_natural_language_processing_system_for_India-centric_languages/links/68b96b2b653c451cf47449e6/DBNLP-detecting-bias-in-natural-language-processing-system-for-India-centric-languages.pdf",
+  },
 ];

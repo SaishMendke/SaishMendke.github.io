@@ -10,11 +10,6 @@ export const projects = [
       "A RAG-based bot for answering internal questions related to a team. Built using retrieval-augmented generation over internal documentation and deployed as a Microsoft Teams bot. Designed to be easily scalable to any team within Microsoft.",
   },
   {
-    title: "Bias Detection Using an India-Centric Approach",
-    description:
-      "Bias quantification framework focused on Indian demographics and language models. Analyzed biases across genders, professions, and Indian religions, presenting findings on how models encode socio-cultural stereotypes specific to the Indian context.",
-  },
-  {
     title: "Beyond Blocking",
     description:
       "Led a project at Microsoft to move from outright blocking of problematic search suggestions to generating safer replacements. Resulted in a ~5% reduction in the defect rate metric for Bing suggestions.",
