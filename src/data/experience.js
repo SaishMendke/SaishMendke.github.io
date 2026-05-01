@@ -1,6 +1,6 @@
 export const experience = [
   {
-    role: "Software Engineer 2",
+    role: "Applied Scientist 2",
     organization: "Microsoft IDC",
     location: "Bing Responsible AI Team",
     period: "July 2023 – Present",
