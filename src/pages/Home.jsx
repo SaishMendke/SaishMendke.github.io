@@ -13,7 +13,7 @@ export default function Home() {
         <div>
           <h1 className="text-2xl font-bold mb-3">Hi, I'm Saish Mendke</h1>
           <p className="text-gray-600 leading-relaxed mb-4">
-            I'm a Software Engineer who enjoys building systems that work at scale and solve
+            I'm an Engineer who enjoys building systems that work at scale and solve
             real-world problems. I currently work at Microsoft and graduated from National
             Institute of Technology Surathkal with a B.Tech in Computer Science (CGPA: 9.53/10).
           </p>
