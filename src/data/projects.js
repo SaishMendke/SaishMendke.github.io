@@ -1,5 +1,11 @@
 export const projects = [
   {
+    title: "Betl",
+    description:
+      "An evaluation layer that lets both humans and AI agents test products and features before real users do. Betl runs AI-generated user archetypes and journey agents through a product to simulate real user journeys, surfacing UX friction, failures, and drop-offs, then reports success rates, error frequencies, and UX scores through visual analytics.",
+    link: "https://www.trybetl.com/",
+  },
+  {
     title: "Agentic Evals for RAI",
     description:
       "Built an agentic workflow for evaluating RAI suggestions with a search and policy tool, and a router that helps pick relevant categories and guidelines from the policy doc to make better judgments. Improved eval quality numbers by 12% from baseline.",
