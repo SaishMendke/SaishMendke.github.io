@@ -8,6 +8,14 @@ export const experience = [
       "Working on helping protect end-users on Bing.com, Copilot Search and Chat from harmful and problematic content. Led the Beyond Blocking project, developed contextual classifier models for election query identification, and built automated pipelines for content moderation.",
   },
   {
+    role: "Backend Engineering Intern",
+    organization: "AI4Bharat",
+    location: "IIT Madras",
+    period: "March 2023 – June 2023",
+    description:
+      "Worked on backend development, contributing to AI4Bharat's platforms including Shoonya, an open-source AI-powered data annotation platform for building multilingual Indian-language datasets, and Chitralekha, an AI-powered video transcreation platform handling transcription, translation, and voice-over generation.",
+  },
+  {
     role: "Software Engineering Intern",
     organization: "Microsoft IDC",
     location: "Bing Web Autosuggest Team",
@@ -22,6 +30,14 @@ export const experience = [
     period: "July 2021 – December 2021",
     description:
       "Built a vision-based monitoring system for tracking construction site progress using deep learning and computer vision. Implemented an end-to-end pipeline from unsupervised segmentation of building point clouds to self-supervised feature learning.",
+  },
+  {
+    role: "Machine Learning Intern",
+    organization: "CloudNuro",
+    location: "Remote",
+    period: "April 2021 – June 2021",
+    description:
+      "Built time-series forecasting models to help CloudNuro's clients predict future costs on subscriptions and other expenses, tuning model parameters to each client's data and deploying the models for two clients. Built a pipeline that continuously ingests new data over time and automatically retrains the models to keep them up to date.",
   },
   {
     role: "B.Tech in Computer Science and Engineering",
