@@ -1,5 +1,6 @@
 import { papers } from "../data/papers";
 import { projects } from "../data/projects";
+import GitHubActivity from "../components/GitHubActivity";
 
 export default function Projects() {
   return (
@@ -31,7 +32,7 @@ export default function Projects() {
 
       {/* Projects */}
       <h1 className="text-2xl font-bold mb-6">Projects</h1>
-      <div className="space-y-4">
+      <div className="space-y-4 mb-12">
         {projects.map((project, i) => (
           <div key={i}>
             <p className="font-medium text-gray-900">{project.title}</p>
@@ -52,6 +53,8 @@ export default function Projects() {
           </div>
         ))}
       </div>
+
+      <GitHubActivity />
     </div>
   );
 }
